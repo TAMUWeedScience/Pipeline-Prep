@@ -24,9 +24,9 @@ I highly recommend [The Missing Semester of Your CS Education.](https://missing.
 
 What is an [IDE?](https://www.codecademy.com/article/what-is-an-ide)
 
-VS code is the best [duh!](https://code.visualstudio.com/)
+[VS code](https://code.visualstudio.com/)
 
-But honestly, there are dozens and it really comes down to personal preferences. To keep things simple, choose one and try to stick to it. You can try others once you get a grasp of the more important topics. 
+There are dozens of IDEs and it really comes down to personal preferences. To keep things simple, choose one and try to stick to it. You can try others once you get a grasp of the more important topics. 
 
 ### Virtual Environment
 
