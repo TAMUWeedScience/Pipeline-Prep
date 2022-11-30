@@ -60,7 +60,7 @@ There are dozens of IDEs and it really comes down to personal preferences. To ke
 What is [Git?](https://www.atlassian.com/git/tutorials/what-is-version-control)
 
 How [we use Git?](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)
-
+		 (https://youtu.be/RGOj5yH7evk)
 ### Github
 Create a github [account](https://github.com/) if you haven't already.
 
