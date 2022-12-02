@@ -1,0 +1,5 @@
+# Ignore everything except this file
+!.gitignore
+
+# SAS keys, for examples
+super_secrete_password_file.yaml
