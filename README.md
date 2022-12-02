@@ -112,6 +112,8 @@ Familiarize yourself with the basics of image processing in Python.
 
 Computer Vision: Algorithms and Applications, 2nd ed. [Richard Szeliski, 2022](https://szeliski.org/Book/)
 
+Python Youtube tutorial: ['thenewboston'](https://youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
+
 ## Point-and-Click Tools
 
 For inspecting and preprocessing raw images
