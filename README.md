@@ -51,11 +51,15 @@ Familiarize yourself with the basics of image processing in Python.
 
 - RealPython.com [tutorial](https://realpython.com/python3-object-oriented-programming/)
 
+## Python resource
+[Youtube Video](https://youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_) 
+
 ## Configuration
 We run all the pipelines by using [Hydra.](https://hydra.cc/docs/intro/)
 
 ## Resources
 Computer Vision: Algorithms and Applications, 2nd ed. [Richard Szeliski, 2022](https://szeliski.org/Book/)
+Azure:[Youtube Introduction](https://youtu.be/3Arj5zlUPG4)
 
 ## Point-and-Click Tools
 For inspecting and preprocessing raw images
