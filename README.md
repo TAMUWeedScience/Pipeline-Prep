@@ -114,6 +114,8 @@ Computer Vision: Algorithms and Applications, 2nd ed. [Richard Szeliski, 2022](h
 
 Python Youtube tutorial: ['thenewboston'](https://youtube.com/playlist?list=PL6gx4Cwl9DGAcbMi1sH6oAMk4JHw91mC_)
 
+Hydra Tutorial: ['an example'](https://www.youtube.com/watch?v=IzEngnqOaRA)
+
 Azure: [Introduction video](https://youtu.be/3Arj5zlUPG4)
 
 ## Point-and-Click Tools
