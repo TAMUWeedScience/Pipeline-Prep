@@ -2,31 +2,48 @@ import PIL
 from PIL import Image, TiffImagePlugin
 from PIL.ExifTags import TAGS
 import json
+from pathlib import Path
 
 class Image_resize_exifdata:
-	#function to resize
-    def resize_image(new_size, file_path):
+    
+    def __init__(self, file_path):
+        """_summary_
+
+        Args:
+            file_path (_type_): _description_
+        """
+
+        # Common data directory
+        self.data_dir = str(Path(file_path).parent)
+        
+        # Input
+        self.file_path = Path(file_path)
+        # Ouput file names
+        self.output_imgpath = Path(self.data_dir, self.file_path.stem  + "_resized.png")
+        self.save_json_path = Path(self.data_dir, self.file_path.stem  + "_resized.json")
+
+    def resize_image(self, new_size):
+        """_summary_
+
+        Args:
+            new_size (_type_): _description_
+        """
         #use Image.open to open the image in PIL's Image module
-        image = Image.open(file_path)
+        image = Image.open(self.file_path)
 
         #use .resize to resize the image and save it
         img_rs = image.resize((new_size))
-        img_rs.save("image_resized.jpeg")
+        # Retain original image name with "resized" appended
+        img_rs.save(self.output_imgpath)
 
 	
-    def exif_data_json(file_path):
-        image = Image.open(file_path)
-       
-        # use getexif() to get exif data (https://medium.com/geekculture/extract-exif-data-from-photos-using-python-440e598274f1)
-        # use TAGS.get in a for loop to write into an empty dictionary
-        # exif_table={}
-        # for k, v in image.getexif().items():
-        #     tag=TAGS.get(k)
-        #     exif_table[tag]=v
-        #THIS SIMPLER METHOD DIDN'T WORK USING json.dump. Error:IFDRational is not JSON serializable
+    def exif_data_json(self):
+        """_summary_
 
-        #So, found a solution here: https://github.com/python-pillow/Pillow/issues/6199
-        # (i bet there is a simpler way to do this)
+        Args:
+            file_path (_type_): _description_
+        """
+        image = Image.open(self.file_path)
         
         exif_table={}
         for k, v in image.getexif().items():
@@ -40,10 +57,14 @@ class Image_resize_exifdata:
                 exif_table[PIL.ExifTags.TAGS[k]] = v
 
         #use json.dumps to write the exifdata in a json file
-        with open("exif_data.json", "w") as json_data:
+        
+        with open(self.save_json_path, "w") as json_data:
             json.dump(exif_table, json_data)
 
+if __name__ == "__main__":
+    
+    file_path = "../../data/MD_Row-10_1656090862.jpg"
+    Image1 = Image_resize_exifdata(file_path)
+    Image1.resize_image((200,200))
+    Image1.exif_data_json()
 
-Image1 = Image_resize_exifdata()
-Image_resize_exifdata.resize_image((200,200), "rambo.jpeg")
-Image_resize_exifdata.exif_data_json("rambo.jpeg")
