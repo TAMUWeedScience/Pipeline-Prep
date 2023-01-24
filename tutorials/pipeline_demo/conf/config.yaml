@@ -1,0 +1,12 @@
+
+hydra:
+  run:
+    dir: ./
+  output_subdir: 
+
+general:
+  workdir: ${hydra:runtime.cwd}  # where the code is executed
+  datadir: ${general.workdir}/data
+
+#More stuff here
+
