@@ -4,7 +4,8 @@ from PIL.ExifTags import TAGS
 import json
 from pathlib import Path
 import yaml
-
+from omegaconf import DictConfig, OmegaConf
+import hydra
 
 class Image_resize_exifdata:
     
@@ -75,6 +76,7 @@ class Image_resize_exifdata:
         with open(self.save_yaml_path, "w") as yaml_file:
             yaml.dump(json_data, yaml_file)
 
+
 if __name__ == "__main__":
     
     file_path = "../../data/MD_Row-10_1656090862.jpg"
@@ -83,3 +85,13 @@ if __name__ == "__main__":
     Image1.exif_data_json()
     Image1.json_to_yaml()
 
+"""
+Trying @hydra
+"""
+@hydra.main(version_base=None, config_path="data_directory", config_name="config_file.yaml")
+def hydra_try(cfg: DictConfig):
+    print(cfg.keys())
+    print("Sensei! This is all i could do with hydra rn. I'll do more. :D")
+    
+if __name__ == "__main__":
+    hydra_try()
