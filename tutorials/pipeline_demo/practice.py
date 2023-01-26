@@ -6,18 +6,9 @@ from PIL.ExifTags import TAGS
 from pathlib import Path
 from omegaconf import DictConfig, OmegaConf
 
-
 @hydra.main(version_base=None, config_path="conf", config_name="config")
 class ImageResizeExifdata:
     def __init__(self, cfg):
-        """
-        This function will define the data file path, data directory and 
-        names of the output json file and the resized image.
-
-        Args:
-            file_path (str): file path of the image to be processed.
-        """
-
         # Common data directory
         self.data_dir = str(Path(cfg.general.file_path).parent)
         
@@ -27,16 +18,11 @@ class ImageResizeExifdata:
         self.output_imgpath = Path(self.data_dir, self.file_path.stem  + "_resized.png")
         self.save_json_path = Path(self.data_dir, self.file_path.stem  + "_resized.json")
 
-    def resize_image(self, new_size):
-        """
-        This function change the size of an image and save it as a new file.
+    def resize_image(self, cfg):
 
-        Args:
-            new_size (tuple): Input required file size. eg: (200,200)
-        """
         #use Image.open to open the image in PIL's Image module
         image = Image.open(self.file_path)
-
+        new_size = (cfg.general.newsize1, cfg.general.newsize1)
         #use .resize to resize the image and save it
         img_rs = image.resize((new_size))
         # Retain original image name with "resized" appended
@@ -67,7 +53,7 @@ class ImageResizeExifdata:
 
 if __name__ == "__main__":
     
-    file_path = "sample.jpeg"
-    Image1 = ImageResizeExifdata(file_path)
+    
+    Image1 = ImageResizeExifdata()
     # Image1.resize_image((200,200))
-    # Image1.exif_data_json()
+    Image1.exif_data_json()
