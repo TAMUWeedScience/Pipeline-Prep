@@ -1,13 +1,15 @@
-import PIL
-from PIL import Image, TiffImagePlugin
-from PIL.ExifTags import TAGS
 import json
 from pathlib import Path
+
+import hydra
+import PIL
 import yaml
 from omegaconf import DictConfig, OmegaConf
-import hydra
+from PIL import Image, TiffImagePlugin
+from PIL.ExifTags import TAGS
 
-class Image_resize_exifdata:
+
+class ImageResizeExifData:
     
     def __init__(self, file_path):
         """
@@ -52,14 +54,14 @@ class Image_resize_exifdata:
         
         exif_table={}
         for k, v in image.getexif().items():
-            if k in PIL.ExifTags.TAGS:
+            if k in TAGS:
                 if isinstance(v, TiffImagePlugin.IFDRational):
                     v = float(v)
                 elif isinstance(v, tuple):
                     v = tuple(float(t) if isinstance(t, TiffImagePlugin.IFDRational) else t for t in v)
                 elif isinstance(v, bytes):
                     v = v.decode(errors="replace")
-                exif_table[PIL.ExifTags.TAGS[k]] = v
+                exif_table[TAGS[k]] = v
 
         #use json.dumps to write the exifdata in a json file
         
@@ -77,18 +79,10 @@ class Image_resize_exifdata:
             yaml.dump(json_data, yaml_file)
 
 
-if __name__ == "__main__":
-    
-    file_path = "../../data/MD_Row-10_1656090862.jpg"
-    Image1 = Image_resize_exifdata(file_path)
-    Image1.resize_image((200,200))
-    Image1.exif_data_json()
-    Image1.json_to_yaml()
-
 """
 Trying @hydra
 """
-@hydra.main(version_base=None, config_path="data_directory", config_name="config_file.yaml")
+@hydra.main(version_base="1.3", config_path="conf", config_name="config.yaml")
 def hydra_try(cfg: DictConfig):
     print(cfg.keys())
     print("Sensei! This is all i could do with hydra rn. I'll do more. :D")

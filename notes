@@ -1,0 +1,16 @@
+
+Nav, nice docstrings! That helps for sure.
+About hydra, 
+it's used as a configuration system for large code bases. It's like a command and control center for our code. You need to make a config.yaml file for the "settings" of your code and use this as input arguments for your class. I've rearranged the data and directory structure and created a config.yaml file. Now you need to populate the config.yaml file with the arguments for your class.
+
+Look here for how the pull in the cfg object and use it.
+https://hydra.cc/docs/1.3/tutorials/basic/your_first_app/using_config/
+Do the same but for your class.
+
+
+I'm not sure why you're converting the json to yaml file. The json is an output for the mini_pipeline and doesn't have anything to do with how hydra is being setup. No worries. But it is good practice anyways. Remove the json_to_yaml method of your class. It's not necessary.
+
+A couple of small things:
+1. Rename your class to match python convention PEP8. This sounds dumb but it makes the code easier to read. Use camel case for class naming. https://www.pyleecan.org/coding.convention.html
+2. Data and directory strucutre is really important when using hydra. Make sure to follow the tutorial and just copy how they've done it, including naming of folder and files. It makes things more consistent and it has become a standard. 
+3. Be careful with renaming imports. You changed how you import TAGS in the import section but not the code. 
