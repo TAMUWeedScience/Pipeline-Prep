@@ -7,7 +7,7 @@ hydra:
 general:
   workdir: ${hydra:runtime.cwd}  # where the code is executed
   datadir: ${general.workdir}/data
-  file_path: /Users/navjotsingh/Pipeline-Prep/tutorials/pipeline_demo/sample.jpeg
+  file_path: ${general.workdir}/sample.jpeg
 
 arg:
   newsize1: 200
