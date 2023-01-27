@@ -5,14 +5,14 @@ from PIL import Image, TiffImagePlugin
 from PIL.ExifTags import TAGS
 
 
-class ImageResizeExifdata:
+class ImageResizeExifData:
     def __init__(self, cfg):
         """
         This function will define the data file path, data directory and 
         names of the output json file and the resized image.
 
         Args:
-            file_path (str): file path of the image to be processed.
+            cfg for config.yaml
         """
 
         # Common data directory
@@ -30,13 +30,13 @@ class ImageResizeExifdata:
         """
         This function change the size of an image and save it as a new file.
 
-        Args:
-            new_size (tuple): Input required file size. eg: (200,200)
         """
         #use Image.open to open the image in PIL's Image module
-        if not self.file_path.exists():
-            "give me a log message telling me something went wrong so I know more specifically why."
-            print()
+
+        # LOG EXAMPLE
+        # if not self.file_path.exists():
+        #     "give me a log message telling me something went wrong so I know more specifically why."
+        #     print()
         
         image = Image.open(self.file_path)
 
