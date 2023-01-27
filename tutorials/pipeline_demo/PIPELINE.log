@@ -1,0 +1,11 @@
+[2023-01-27 11:49:48,033][__main__][INFO] - Info level message
+[2023-01-27 15:09:17,258][__main__][INFO] - Info level message
+[2023-01-27 15:09:31,507][__main__][INFO] - Info level message
+[2023-01-27 20:17:14,367][__main__][INFO] - navjotsingh is running the pipeline
+[2023-01-27 20:17:14,368][__main__][INFO] - Pipeline ran successfully.
+[2023-01-27 20:17:40,416][__main__][INFO] - navjotsingh is running the pipeline
+[2023-01-27 20:17:40,416][__main__][INFO] - Pipeline ran successfully.
+[2023-01-27 20:18:14,314][__main__][INFO] - navjotsingh is running the pipeline
+[2023-01-27 20:18:14,314][__main__][ERROR] - The pipeline has some error
+[2023-01-27 20:19:35,625][__main__][INFO] - navjotsingh is running the pipeline
+[2023-01-27 20:19:35,625][__main__][ERROR] - The pipeline has some error
