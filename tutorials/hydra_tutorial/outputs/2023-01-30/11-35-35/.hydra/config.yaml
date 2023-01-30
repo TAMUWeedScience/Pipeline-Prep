@@ -1,6 +1,0 @@
-paths:
-  workdir: ${hydra:runtime.cwd}
-  file_path: ${paths.workdir}/sample.jpeg
-args:
-  newsize1: 300
-  newsize2: 300
