@@ -1,3 +1,4 @@
 
 # Ignore administrative shell scripts
+**__pycache__
 *.sh

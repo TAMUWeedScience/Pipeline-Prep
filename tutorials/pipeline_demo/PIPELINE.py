@@ -1,12 +1,12 @@
+import getpass
+import logging
 import os
 import traceback
-import logging
-import getpass
-
-from mini_pipeline_imgresize import ImageResizeExifData
+from pathlib import Path
 
 import hydra
 from hydra.utils import get_method
+from mini_pipeline_imgresize import ImageResizeExifData
 from omegaconf import DictConfig, OmegaConf
 
 log = logging.getLogger(__name__)
@@ -14,23 +14,30 @@ log = logging.getLogger(__name__)
 @hydra.main(version_base=None, config_path="conf", config_name="config")
 def run_pipiline(cfg:DictConfig):
 
+    whoami = getpass.getuser()
+    log.info(f"{whoami} is running the pipeline")
+
     #class instance
     ired = ImageResizeExifData(cfg)
 
-    #class method
-    #ired.resize_image()
-    ired.exif_data_json()
-
-    #log information
-    cfg = OmegaConf.create(cfg)
-    whoami = getpass.getuser()
-    log.info(f"{whoami} is running the pipeline")
+    #class method resize
+    try:
+        log.info(f"Resizing image.")
+        ired.resize_image()
+    except Exception as e:
+        log.error(f"Error resizing image")
     
+    try:
+        log.info(f"Creating metadata")
+        ired.exif_data_json()
+    except Exception as e:
+        log.error(f"Error creating metadata")
+
+    try:
+        log.info(f"...")
+        ired.check_output()    
+    except Exception as e:
+        log.error(f"Error...")
+
 if __name__ == "__main__":
     run_pipiline()
-    if os.path.exists("sample_resized.png"): 
-        log.info("Pipeline ran successfully.")
-        print("Congratulaitons, this pipeline works.")
-    else:
-        log.error("The pipeline has some error")
-        print("Pipeline didn't work correctly. Check for errors please.")

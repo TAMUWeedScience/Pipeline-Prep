@@ -16,7 +16,7 @@ class ImageResizeExifData:
         """
 
         # Common data directory
-        self.data_dir = str(Path(cfg.general.file_path).parent)
+        self.data_dir = Path(cfg.general.datadir)
         # Input
         self.file_path = Path(cfg.general.file_path)
         # Ouput file names
@@ -68,3 +68,6 @@ class ImageResizeExifData:
         with open(self.save_json_path, "w") as json_data:
             json.dump(exif_table, json_data, indent=4)
 
+    def check_output(self):
+        """Something here
+        """
