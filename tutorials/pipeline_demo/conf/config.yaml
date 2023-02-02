@@ -7,11 +7,12 @@ hydra:
 general:
   workdir: ${hydra:runtime.cwd}  # where the code is executed
   datadir: ${general.workdir}/data
-  file_path: ${general.workdir}/sample.jpeg
+  image_folder: ${general.datadir}/images
+  resized_images: ${general.datadir}/resized_images 
 
 arg:
-  newsize1: 200
-  newsize2: 200
+  newsize1: 100
+  newsize2: 100
 
 
  

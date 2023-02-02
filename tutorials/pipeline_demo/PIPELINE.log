@@ -9,3 +9,210 @@
 [2023-01-27 20:18:14,314][__main__][ERROR] - The pipeline has some error
 [2023-01-27 20:19:35,625][__main__][INFO] - navjotsingh is running the pipeline
 [2023-01-27 20:19:35,625][__main__][ERROR] - The pipeline has some error
+[2023-02-01 08:55:19,591][mini_pipeline_imgresize][ERROR] - The pipeline has some error
+[2023-02-01 09:56:15,344][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 09:57:35,624][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 09:58:24,505][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 10:00:52,230][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 10:00:52,311][mini_pipeline_imgresize][ERROR] - The pipeline has some error
+[2023-02-01 10:23:15,056][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 10:23:15,138][mini_pipeline_imgresize][ERROR] - The pipeline has some error
+[2023-02-01 10:38:13,482][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 10:38:13,564][mini_pipeline_imgresize][INFO] - Pipeline ran successfully.
+[2023-02-01 11:39:13,517][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 11:39:13,611][mini_pipeline_imgresize][INFO] - Pipeline ran successfully.
+[2023-02-01 14:48:03,337][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 14:57:33,413][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 14:59:04,935][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 15:02:27,122][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 15:04:07,551][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 15:05:18,544][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-01 15:08:22,291][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 10:55:36,361][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 11:10:30,017][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:01:18,158][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:01:24,555][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:01:57,608][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:02:06,025][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:03:34,962][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:03:34,967][__main__][INFO] - Resizing image.
+[2023-02-02 12:04:07,313][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:04:07,318][__main__][INFO] - Resizing image.
+[2023-02-02 12:05:27,235][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:05:27,240][__main__][INFO] - Resizing image.
+[2023-02-02 12:07:05,210][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:07:05,215][__main__][INFO] - Resizing image.
+[2023-02-02 12:14:17,360][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:14:17,369][__main__][INFO] - Resizing image.
+[2023-02-02 12:15:07,626][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:15:07,634][__main__][INFO] - Resizing image.
+[2023-02-02 12:15:08,249][__main__][ERROR] - Failed: 'ASNBDJ.JPG'. Error resizing image
+[2023-02-02 12:16:13,634][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:16:13,639][__main__][INFO] - Resizing image.
+[2023-02-02 12:16:14,236][__main__][ERROR] - Failed: 'ASNBDJ.JPG'. Error resizing image
+[2023-02-02 12:16:34,172][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:16:34,177][__main__][INFO] - Resizing image.
+[2023-02-02 12:16:34,759][__main__][ERROR] - Failed: 'ASNBDJ.JPG'. Error resizing image
+[2023-02-02 12:17:12,812][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:17:12,816][__main__][INFO] - Resizing image.
+[2023-02-02 12:17:12,850][__main__][ERROR] - Failed: 'ASNBDJ.JPG'. Error resizing image
+[2023-02-02 12:18:06,021][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 12:18:06,026][__main__][INFO] - Resizing image.
+[2023-02-02 12:18:06,060][__main__][ERROR] - Failed: 'ASNBDJ.JPG'. Error resizing image
+[2023-02-02 13:50:52,833][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 13:50:52,840][__main__][INFO] - Resizing image.
+[2023-02-02 13:50:52,912][__main__][ERROR] - Failed: unknown file extension: . Error resizing image
+[2023-02-02 13:52:13,726][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 13:52:13,731][__main__][INFO] - Resizing image.
+[2023-02-02 13:52:13,791][__main__][ERROR] - Failed: 'SAMPLESDF.JPEG'. Error resizing image
+[2023-02-02 13:52:56,860][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 13:58:12,766][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 13:58:32,362][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 13:58:32,366][__main__][INFO] - Resizing image.
+[2023-02-02 13:58:47,709][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 13:58:47,714][__main__][INFO] - Resizing image.
+[2023-02-02 14:01:50,973][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:01:50,979][__main__][INFO] - Resizing image.
+[2023-02-02 14:01:50,990][__main__][ERROR] - Failed: unsupported operand type(s) for +: 'PosixPath' and 'str'. Error resizing image
+[2023-02-02 14:05:12,531][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:05:12,537][__main__][INFO] - Resizing image.
+[2023-02-02 14:05:42,546][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:05:42,551][__main__][INFO] - Resizing image.
+[2023-02-02 14:16:01,991][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:16:01,996][__main__][INFO] - Resizing image.
+[2023-02-02 14:16:02,563][__main__][ERROR] - Failed: unsupported operand type(s) for +: 'PosixPath' and 'str'. Error resizing image
+[2023-02-02 14:16:40,145][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:16:40,149][__main__][INFO] - Resizing image.
+[2023-02-02 14:33:17,823][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:33:17,830][__main__][INFO] - Resizing image.
+[2023-02-02 14:33:52,476][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:33:52,482][__main__][INFO] - Resizing image.
+[2023-02-02 14:35:05,740][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:35:05,746][__main__][INFO] - Resizing image.
+[2023-02-02 14:36:03,117][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:36:03,124][__main__][INFO] - Resizing image.
+[2023-02-02 14:36:03,666][__main__][ERROR] - Failed: unsupported operand type(s) for /: 'str' and 'str'. Error resizing image
+[2023-02-02 14:42:29,103][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:42:29,129][__main__][INFO] - Resizing image.
+[2023-02-02 14:42:32,029][__main__][ERROR] - Failed: unknown file extension: .format(fn). Error resizing image
+[2023-02-02 14:43:44,110][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:43:44,134][__main__][INFO] - Resizing image.
+[2023-02-02 14:43:46,378][__main__][ERROR] - Failed: [Errno 2] No such file or directory: 'self.data_dir//Users/navjotsingh/Pipeline-Prep/tutorials/pipeline_demo/data/images/palmer_no residue_overhead_001.png'. Error resizing image
+[2023-02-02 14:44:09,487][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:44:09,511][__main__][INFO] - Resizing image.
+[2023-02-02 14:44:11,686][__main__][ERROR] - Failed: [Errno 2] No such file or directory: 'self.data_dir//Users/navjotsingh/Pipeline-Prep/tutorials/pipeline_demo/data/images/palmer_no residue_overhead_001.png'. Error resizing image
+[2023-02-02 14:45:05,566][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:45:05,585][__main__][INFO] - Resizing image.
+[2023-02-02 14:45:07,954][__main__][ERROR] - Failed: unknown file extension: . Error resizing image
+[2023-02-02 14:54:40,681][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:54:40,687][__main__][INFO] - Resizing image.
+[2023-02-02 14:54:41,220][__main__][ERROR] - Failed: 'dict' object has no attribute 'png'. Error resizing image
+[2023-02-02 14:55:16,947][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:55:16,953][__main__][INFO] - Resizing image.
+[2023-02-02 14:58:43,584][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:58:43,592][__main__][INFO] - Resizing image.
+[2023-02-02 14:59:39,694][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 14:59:39,700][__main__][INFO] - Resizing image.
+[2023-02-02 15:05:04,731][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:05:04,736][__main__][INFO] - Resizing image.
+[2023-02-02 15:07:34,972][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:07:34,977][__main__][INFO] - Resizing image.
+[2023-02-02 15:10:07,422][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:10:07,430][__main__][INFO] - Resizing image.
+[2023-02-02 15:11:11,988][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:11:11,995][__main__][INFO] - Resizing image.
+[2023-02-02 15:12:57,804][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:12:57,811][__main__][INFO] - Resizing image.
+[2023-02-02 15:15:39,663][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:15:39,669][__main__][INFO] - Resizing image.
+[2023-02-02 15:16:02,955][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:16:02,961][__main__][INFO] - Resizing image.
+[2023-02-02 15:22:01,464][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:22:01,471][__main__][INFO] - Resizing image.
+[2023-02-02 15:26:23,458][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:26:23,467][__main__][INFO] - Resizing image.
+[2023-02-02 15:28:19,948][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:28:19,954][__main__][INFO] - Resizing image.
+[2023-02-02 15:28:20,499][__main__][ERROR] - Failed: unsupported operand type(s) for /: 'str' and 'str'. Error resizing image
+[2023-02-02 15:29:09,746][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:29:09,752][__main__][INFO] - Resizing image.
+[2023-02-02 15:29:10,301][__main__][ERROR] - Failed: unsupported operand type(s) for /: 'str' and 'str'. Error resizing image
+[2023-02-02 15:29:30,086][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:29:30,093][__main__][INFO] - Resizing image.
+[2023-02-02 15:36:04,284][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:36:04,290][__main__][INFO] - Resizing image.
+[2023-02-02 15:36:21,883][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:36:21,890][__main__][INFO] - Resizing image.
+[2023-02-02 15:38:29,760][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:38:29,766][__main__][INFO] - Resizing image.
+[2023-02-02 15:41:19,572][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:42:12,870][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:42:12,882][__main__][INFO] - Resizing image.
+[2023-02-02 15:45:45,283][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:45:45,291][__main__][INFO] - Resizing image.
+[2023-02-02 15:56:42,610][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:56:42,616][__main__][INFO] - Creating metadata
+[2023-02-02 15:56:42,617][__main__][ERROR] - Failed: 'generator' object has no attribute 'read'. Error creating metadata
+[2023-02-02 15:57:25,969][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 15:58:54,876][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:00:10,064][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:00:19,815][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:01:26,768][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:01:38,176][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:02:00,361][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:02:16,006][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:04:17,435][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:07:32,710][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:08:28,753][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:09:46,793][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:09:46,800][__main__][INFO] - Resizing image.
+[2023-02-02 16:09:46,975][__main__][ERROR] - Failed: cannot write mode RGBA as JPEG. Error resizing image
+[2023-02-02 16:10:03,372][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:10:03,380][__main__][INFO] - Resizing image.
+[2023-02-02 16:10:03,553][__main__][ERROR] - Failed: cannot write mode RGBA as JPEG. Error resizing image
+[2023-02-02 16:10:23,021][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:10:23,029][__main__][INFO] - Resizing image.
+[2023-02-02 16:10:34,665][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:10:34,675][__main__][INFO] - Resizing image.
+[2023-02-02 16:10:35,202][__main__][INFO] - Creating metadata
+[2023-02-02 16:12:40,011][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:12:40,019][__main__][INFO] - Resizing image.
+[2023-02-02 16:12:40,547][__main__][INFO] - Creating metadata
+[2023-02-02 16:15:02,194][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:15:02,203][__main__][INFO] - Resizing image.
+[2023-02-02 16:15:02,667][__main__][INFO] - Creating metadata
+[2023-02-02 16:16:10,113][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:16:10,122][__main__][INFO] - Resizing image.
+[2023-02-02 16:16:10,609][__main__][INFO] - Creating metadata
+[2023-02-02 16:16:45,474][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:16:45,485][__main__][INFO] - Resizing image.
+[2023-02-02 16:19:21,487][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:19:21,494][__main__][INFO] - Resizing image.
+[2023-02-02 16:19:40,780][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:22:07,150][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:22:42,941][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:23:05,857][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:24:53,027][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 16:25:35,267][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 17:47:14,022][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 17:47:51,320][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 17:47:51,328][__main__][INFO] - Creating metadata
+[2023-02-02 17:51:06,092][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 17:51:06,099][__main__][INFO] - Creating metadata
+[2023-02-02 17:51:38,131][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 17:51:38,139][__main__][INFO] - Creating metadata
+[2023-02-02 17:53:51,207][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 17:53:51,214][__main__][INFO] - Resizing image.
+[2023-02-02 17:55:14,391][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 17:55:14,400][__main__][INFO] - Creating metadata
+[2023-02-02 17:56:08,028][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 17:56:08,036][__main__][INFO] - Creating metadata
+[2023-02-02 17:56:44,092][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 17:56:44,100][__main__][INFO] - Resizing image.
+[2023-02-02 17:56:44,635][__main__][INFO] - Creating metadata
+[2023-02-02 18:00:14,951][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 18:00:14,959][__main__][INFO] - Resizing image.
+[2023-02-02 18:00:15,455][__main__][INFO] - Creating metadata
+[2023-02-02 18:07:49,337][__main__][INFO] - navjotsingh started the pipeline
+[2023-02-02 18:07:49,345][__main__][INFO] - Resizing image.
+[2023-02-02 18:07:49,834][__main__][INFO] - Creating metadata

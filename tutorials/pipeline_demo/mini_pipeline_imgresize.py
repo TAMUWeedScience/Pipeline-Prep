@@ -1,6 +1,9 @@
 import json
-from pathlib import Path
+import os
+import logging
+import getpass
 
+from pathlib import Path
 from PIL import Image, TiffImagePlugin
 from PIL.ExifTags import TAGS
 
@@ -16,14 +19,20 @@ class ImageResizeExifData:
         """
 
         # Common data directory
-        self.data_dir = str(Path(cfg.general.file_path).parent)
-        # Input
-        self.file_path = Path(cfg.general.file_path)
-        # Ouput file names
-        self.output_imgpath = Path(self.data_dir, self.file_path.stem  + "_resized.png")
-        self.save_json_path = Path(self.data_dir, self.file_path.stem  + "_resized.json")
+
+        # Input dir
+        self.input_images = (Path(cfg.general.image_folder))
+        self.file_path = Path(cfg.general.image_folder).glob("*.jpeg")
+
+        # Output dir
+        self.resized_images = (Path(cfg.general.resized_images))
+
+        # Arguments resize_image
         self.size1 = cfg.arg.newsize1
         self.size2 = cfg.arg.newsize2
+
+        #logging
+        self.log = logging.getLogger(__name__)
 
 
     def resize_image(self):
@@ -31,40 +40,40 @@ class ImageResizeExifData:
         This function change the size of an image and save it as a new file.
 
         """
-        #use Image.open to open the image in PIL's Image module
+        # Loop through all images in the file_path with .jpeg ext.
+        for images in self.file_path:
+        # Use Image.open to open the image in PIL's Image module
+            image = Image.open(images)
 
-        # LOG EXAMPLE
-        # if not self.file_path.exists():
-        #     "give me a log message telling me something went wrong so I know more specifically why."
-        #     print()
-        
-        image = Image.open(self.file_path)
+            #use .resize to resize the image and save it
+            img_rs = image.resize((self.size1, self.size2))
 
-        #use .resize to resize the image and save it
-        img_rs = image.resize((self.size1, self.size2))
-        # Retain original image name with "resized" appended
-        img_rs.save(self.output_imgpath)
+            # Retain original image name with "resized" appended
+            fn, fext = os.path.splitext(images)
+            img_rs.save(self.resized_images/ f"{fn}_resized.png")
 
 	
     def exif_data_json(self):
         """
         This function extract exif data of an image and write it in a json file.
         """
-        image = Image.open(self.file_path)
-        
-        exif_table={}
-        for k, v in image.getexif().items():
-            if k in TAGS:
-                if isinstance(v, TiffImagePlugin.IFDRational):
-                    v = float(v)
-                elif isinstance(v, tuple):
-                    v = tuple(float(t) if isinstance(t, TiffImagePlugin.IFDRational) else t for t in v)
-                elif isinstance(v, bytes):
-                    v = v.decode(errors="replace")
-                exif_table[TAGS[k]] = v
+        # Loop through all images in the file_path with .jpeg ext.
+        for images in self.file_path:
+            image = Image.open(images)
+            
+            exif_table={} # Empty table 
+            # Loop through all items in results of getexif()
+            for k, v in image.getexif().items():
+                if k in TAGS:
+                    # Make the exifdata items readable
+                    if isinstance(v, TiffImagePlugin.IFDRational):
+                        v = float(v)
+                    elif isinstance(v, tuple):
+                        v = tuple(float(t) if isinstance(t, TiffImagePlugin.IFDRational) else t for t in v)
+                    elif isinstance(v, bytes):
+                        v = v.decode(errors="replace")
+                    exif_table[TAGS[k]] = v # Populate the table with exifdata items
 
-        #use json.dumps to write the exifdata in a json file
-        
-        with open(self.save_json_path, "w") as json_data:
-            json.dump(exif_table, json_data, indent=4)
-
+            #use json.dumps to write the exifdata in a json file
+            with open(f"{images}_jsondata", "w") as json_data:
+                json.dump(exif_table, json_data, indent=4)
