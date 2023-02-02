@@ -17,6 +17,7 @@ Resources, materials, and tutorials used to prep someone to use various PSA imag
     - [Hydra Configuration](#hydra-configuration)
     - [Object Oriented Programming](#object-oriented-programming)
   - [Image processing](#image-processing)
+  - [NCSU server access](#NCSU-server-access)
   - [Resources](#resources)
   - [Point-and-Click Tools](#point-and-click-tools)
 
@@ -92,7 +93,7 @@ A command line tool for moving data between the local server and cloud storage l
 
 ### Hydra Configuration
 
-I consider this a fundamental concept because it plays a major role in how the pipeline is strucutred and operates.
+This is a fundamental concept because it plays a major role in how the pipeline is strucutred and operates.
 
 We run all the pipelines by using [Hydra.](https://hydra.cc/docs/intro/) 
 
@@ -107,6 +108,14 @@ Familiarize yourself with the basics of image processing in Python.
 - [OpenCV Tutorial](https://opencv24-python-tutorials.readthedocs.io/en/latest/py_tutorials/py_tutorials.html)
 - [SciKit-Image](https://scikit-image.org/docs/stable/auto_examples/)
 - [Scipy](https://scipy-lectures.org/advanced/image_processing/)
+
+## NCSU server access
+Access to the NCSU server is required to run the pipeline. It invlves following steps:
+- NCSU staff will start the process with the legal name and email address of the applicant.
+- Then, the applicant will have to go through a background check. This takes 2-3 weeks.
+- Following, the NCSU staff will create an UNITY ID for the applicant. This UNITY ID is used to login to the server and run the pipeline.
+- The NCSU staff have to add the applicant to CLOUDY (server), and grant permission to work in the        psa_images user space and permission to access nfs storage
+- The applicant have to use a VPN to connect to server. [NCSU's VPN service](https://oit.ncsu.edu/campus-it/campus-data-network/vpn/)
 
 ## Resources
 
