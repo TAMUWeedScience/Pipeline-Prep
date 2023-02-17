@@ -110,7 +110,7 @@ Familiarize yourself with the basics of image processing in Python.
 - [Scipy](https://scipy-lectures.org/advanced/image_processing/)
 
 ## NCSU server access
-Access to the NCSU server is required to run the pipeline. It invlves following steps:
+Access to the NCSU server is required to run the pipeline. It involves following steps:
 - NCSU staff will start the process with the legal name and email address of the applicant.
 - Then, the applicant will have to go through a background check. This takes 2-3 weeks.
 - Following, the NCSU staff will create an UNITY ID for the applicant. This UNITY ID is used to login to the server and run the pipeline.
