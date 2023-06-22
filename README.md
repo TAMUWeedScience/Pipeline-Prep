@@ -117,6 +117,14 @@ Access to the NCSU server is required to run the pipeline. It involves following
 - The NCSU staff have to add the applicant to CLOUDY (server), and grant permission to work in the        psa_images user space and permission to access nfs storage
 - The applicant have to use a VPN to connect to server. [NCSU's VPN service](https://oit.ncsu.edu/campus-it/campus-data-network/vpn/)
 
+## Steps to follow for running pipeline (rough)
+1. Get access to the NCSU server and VPN
+2. Download VScode and a VPN client (like Cisco Anyconnect)
+3. Use the VPN client to connect to the NC state computing resources remotely (https://oit.ncsu.edu/campus-it/campus-data-network/vpn/)
+4. Use the VScode to establish a remote connection to the NCSU server using the VSCODE interpreter. You will have to use the name: <your-unity-id>.cloudy.ece.ncsu.edu as the host name and then enter your password.
+5. <<<<<<add more>>>>>>>
+
+
 ## Resources
 
 Computer Vision: Algorithms and Applications, 2nd ed. [Richard Szeliski, 2022](https://szeliski.org/Book/)
