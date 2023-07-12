@@ -125,7 +125,7 @@ How to get into the NCSU server space remotely:
 3. Use the VPN client to connect to the NC state computing resources remotely (https://oit.ncsu.edu/campus-it/campus-data-network/vpn/)
 4. Use the VScode to establish a remote connection to the NCSU server using the VSCODE interpreter ( Ctrl + shift +P). 
 5. Search for ‘Remote SSH: Add new SSH host …
-6. Enter the SSH connection command: ssh <your-unity-id>.cloudy.ece.ncsu.edu 
+6. Enter the SSH connection command: ssh <your-unity-id>.sunny.ece.ncsu.edu 
 7. Select one of the ssh config files to update
 8. You’ll see a pop-up window saying host added. Click on connect and then enter the NCSU password when prompted. 
 9. Now you are in the remote NCSU server space.
