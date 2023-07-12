@@ -129,6 +129,7 @@ How to get into the NCSU server space remotely:
 7. Select one of the ssh config files to update
 8. You’ll see a pop-up window saying host added. Click on connect and then enter the NCSU password when prompted. 
 9. Now you are in the remote NCSU server space.
+10. Once in the server space, you need to install anaconda and then create and envirionment using the environment.yml file (/home/psa_images/SemiF-AnnotationPipeline).
 
 
 
